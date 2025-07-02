@@ -7,7 +7,7 @@
     <h1 class="text-5xl font-extrabold mb-4 animate-fade-in-down">Selamat Datang di Aplikasi Bengkel Anda</h1>
     <p class="text-xl mb-8 animate-fade-in-up">Kelola Produk, Pelanggan, dan Transaksi dengan Mudah!</p>
     <div class="space-x-4 animate-zoom-in">
-        <a href="{{ route('products.index') }}" class="btn btn-primary bg-yellow-500 hover:bg-yellow-600 border-yellow-700">
+        <a href="{{ route('product.index') }}" class="btn btn-primary bg-yellow-500 hover:bg-yellow-600 border-yellow-700">
             Lihat Produk/Jasa
         </a>
         <a href="{{ route('transactions.create') }}" class="btn btn-primary bg-green-500 hover:bg-green-600 border-green-700">
